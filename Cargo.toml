@@ -1,0 +1,8 @@
+[package]
+name = "macro1"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+macro1_macros = { path = "./macro1_macros", version = "0.1.0"}
